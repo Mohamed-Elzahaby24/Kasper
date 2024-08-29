@@ -827,3 +827,49 @@ header nav .form i {
   top: -14px;
 }
 /* End Skills */
+/* Start Quotes */
+.quote {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-image: url(../images/quote.jpg);
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.quote:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 75%);
+}
+
+.quote q:before {
+  font-family: FontAwesome;
+  content: "\f10d";
+  font-size: 25px;
+  margin-right: 7px;
+}
+
+.quote q:after {
+  font-family: FontAwesome;
+  content: "\f10e";
+  font-size: 25px;
+  margin-right: 7px;
+}
+
+.quote .container {
+  position: relative;
+}
+
+.quote q {
+  font-size: 30px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* End Quotes */
